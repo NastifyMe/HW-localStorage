@@ -1,0 +1,62 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+#form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 300px;
+    gap: 10px;
+}
+#form input{
+    padding: 10px 10px;
+}
+#form button{
+    width: 200px;
+    margin-left: 50px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.list_title {
+    /* display: flex;
+    justify-content: center; */
+    margin-top: 50px;
+}
+.list {
+    margin-top: 50px;
+    flex-direction: column;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.list li {
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 249, 223);
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+.name {
+    font-size: 18px;
+}
+
+.surname {
+    font-size: 18px;
+}
+
+.list button {
+    padding: 15px 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    transition: background-color 0.3s ease;
+}
+
+.list button:hover {
+    background-color: rgb(252, 214, 164);
+}
