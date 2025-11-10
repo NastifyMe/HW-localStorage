@@ -92,3 +92,8 @@ function addContacts(contact, index){
         list.appendChild(li)
     });
 }
+
+localStorage.removeItem('col')
+localStorage.removeItem('mess')
+localStorage.removeItem('userInfo')
+localStorage.removeItem('num')

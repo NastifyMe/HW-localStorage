@@ -207,11 +207,11 @@
       });
     }
   }
-})({"4ZIOv":[function(require,module,exports,__globalThis) {
+})({"jI2nt":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1235;
+var HMR_SERVER_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -779,7 +779,11 @@ function addContacts(contact, index) {
         list.appendChild(li);
     });
 }
+localStorage.removeItem('col');
+localStorage.removeItem('mess');
+localStorage.removeItem('userInfo');
+localStorage.removeItem('num');
 
-},{}]},["4ZIOv","NhzJs"], "NhzJs", "parcelRequire3dad", {})
+},{}]},["jI2nt","NhzJs"], "NhzJs", "parcelRequire3dad", {})
 
 //# sourceMappingURL=HW-localStorage.0be11312.js.map
